@@ -46,6 +46,61 @@ Context-click on any area of your design, and from the contextual menu, select "
 
 <button class="kbc-button kbc-button-xs">M</button> Add a comment into your design when you press "M" as the hotkey. After pressing the hotkey, a new comment will be displayed. You can move the new comment anywhere in your design.
 
+
+## Using the Layers Panel
+
+The **Layers Panel** in Kanvas gives you fine-grained control over your design's visibility, organization, and performance. Use it to manage which components and relationships are visible, and to streamline your review process.
+
+### Renaming Components
+
+To rename a component (such as a comment or any design element):
+
+1. **Select the component** on the canvas or in the Layers panel.
+2. **Edit the name** directly in the Layers panel or via the component's configuration panel.
+3. For comments, right-click and choose "Rename" or use the configuration sidebar.
+
+Meaningful names help you and your team quickly identify and reference components during reviews. See [Working with Components](/kanvas/getting-started/working-with-components/) for more details.
+
+### Disabling Relationship Evaluations
+
+You can toggle the evaluation and visualization of specific relationship types (such as network, parent-child, or tag-based relationships) directly from the Layers panel:
+
+1. Open the Layers panel and locate the **Relationships** section.
+2. Use the toggles to enable or disable evaluation/visualization for each relationship type.
+3. Disabling a relationship type hides it from view and stops its evaluation, improving performance for complex designs.
+
+> Even when hidden, relationships are not deleted—they are simply not shown or evaluated until re-enabled.
+
+Learn more in [Creating Relationships](/kanvas/getting-started/creating-relationships/) and [Performance Tuning](/kanvas/advanced/performance/).
+
+### Show/Hide Components by Type
+
+The Layers panel allows you to show or hide all components of a specific type (e.g., all comments, all annotations, all databases):
+
+1. In the Layers panel, find the list of component types.
+2. Use the visibility toggles to show or hide each type.
+3. This is useful for focusing on certain aspects of your design or decluttering the canvas during reviews.
+
+See [Understanding Design Components](/kanvas/designer/understanding-design-component/) for a breakdown of component types.
+
+### Show/Hide Individual Components
+
+To show or hide a specific component:
+
+1. Expand the component type in the Layers panel.
+2. Locate the individual component and use its visibility toggle.
+3. Hidden components remain in your design but are not visible on the canvas until re-enabled.
+
+This feature is especially helpful for isolating issues or reviewing changes in detail.
+
+{{< alert type="info" title="Tip: Consistent Views for Collaboration" >}}
+When sharing a design for review, ask collaborators to match your Layers panel settings for a consistent view. See [URL Parameters](/kanvas/advanced/url-parameters/) for sharing full render views.
+{{< /alert >}}
+
+For more on grouping and organizing components, see [TagSets and Grouping](/kanvas/designer/tagsets/).
+
+---
+
 ## Design review using comments
 
 <figure>
