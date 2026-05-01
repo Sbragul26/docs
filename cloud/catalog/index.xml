@@ -23,7 +23,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[391 174 91 448 102 48]" src="../../cloud/catalog/images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
+ &lt;img id="[255 491 464 160 366 57]" src="../../cloud/catalog/images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -54,7 +54,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[365 173 22 460 129 61]" src="../../cloud/catalog/images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
+ &lt;img id="[37 188 461 158 132 6]" src="../../cloud/catalog/images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
