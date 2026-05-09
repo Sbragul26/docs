@@ -82,11 +82,8 @@
               });
               q.term(queryString, {
                 wildcard:
-                  lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING,
+                  lunr.Query.wildcard.TRAILING,
                 boost: 10,
-              });
-              q.term(queryString, {
-                editDistance: 2,
               });
             });
           })
