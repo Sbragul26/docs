@@ -226,13 +226,15 @@
     dropdown.addEventListener("click", function (event) {
     event.stopPropagation();
 
-    // hide any other active dropdowns
     const allActiveDropdowns = document.querySelectorAll(".nav-link.current");
     allActiveDropdowns.forEach((otherDropdown) => {
       if (otherDropdown !== dropdown) {
         otherDropdown.classList.remove("current");
-        otherDropdown.nextElementSibling.classList.remove("show");
-        otherDropdown.nextElementSibling.style.visibility = "hidden"; 
+        const otherMenu = otherDropdown.nextElementSibling;
+        if (otherMenu) {
+          otherMenu.classList.remove("show");
+          otherMenu.style.visibility = "hidden";
+        }
       }
     });
 
