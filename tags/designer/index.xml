@@ -23,7 +23,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[449 448 82 304 266 488]" src="../../cloud/catalog/images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
+ &lt;img id="[414 57 109 481 106 178]" src="../../cloud/catalog/images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -54,7 +54,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[423 483 57 425 473 327]" src="../../cloud/catalog/images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
+ &lt;img id="[482 180 376 423 78 274]" src="../../cloud/catalog/images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -86,7 +86,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[393 408 394 357 28 171]" src="./images/Slide51.svg" onclick="openModal(this.id)" alt="Flow for sharing design" 
+ &lt;img id="[122 257 139 14 15 172]" src="./images/Slide51.svg" onclick="openModal(this.id)" alt="Flow for sharing design" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
