@@ -213,7 +213,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[121 284 125 280 377 486]" src="../../cloud/concepts/identity-and-security/images/roles-overview.svg" onclick="openModal(this.id)" alt="roles" 
+ &lt;img id="[273 185 267 461 5 454]" src="../../cloud/concepts/identity-and-security/images/roles-overview.svg" onclick="openModal(this.id)" alt="roles" 
  class="md-image-responsive image-center-no-shadow" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -236,7 +236,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[93 2 475 344 153 17]" src="../../cloud/concepts/identity-and-security/images/role-provider-admin.svg" onclick="openModal(this.id)" alt="role-provider" 
+ &lt;img id="[63 432 261 54 425 284]" src="../../cloud/concepts/identity-and-security/images/role-provider-admin.svg" onclick="openModal(this.id)" alt="role-provider" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/p&gt;
