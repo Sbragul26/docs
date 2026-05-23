@@ -14,6 +14,7 @@
 	{{- partial "feature-info.html" . -}}
 	{{ .Content }}
   {{ partial "video-section-index.html" . -}}
+	{{ partial "related-docs.html" . }}
 	
 	{{ if (.Site.Config.Services.Disqus.Shortname) -}}
 		<br />

@@ -8,6 +8,7 @@ categories: [Designer]
 formats: [video]
 tags: [Dock, Pin, Models, designer]
 duration: "0:57"
+
 ---
 
 {{< youtube id=8lQ6ed_1Tss class="yt-embed-container" >}}
@@ -23,5 +24,3 @@ When a model is pinned you can still browse all components or search for a speci
 
 When you no longer want a model pinned to the dock, you can remove the pin by revisiting the model in its original location and choosing to “remove from dock”.
 
-Related Docs:
-1. https://docs.layer5.io/kanvas/designer/understanding-tool-modes/

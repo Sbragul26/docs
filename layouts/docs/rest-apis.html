@@ -13,6 +13,7 @@
   {{ end }}
   {{ .Content }}
   {{ partial "rest-apis/viewer.html" . }}
+  {{ partial "related-docs.html" . }}
   {{ if (.Site.Config.Services.Disqus.Shortname) -}}
     <br />
     {{- partial "disqus-comment.html" . -}}

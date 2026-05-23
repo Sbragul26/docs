@@ -5,6 +5,7 @@ description: >
 weight: 3
 categories: [Designer]
 tags: [performance, interaction]
+
 ---
 
 **Auto-pan on Drag** (autopan, for short) is the behavior where Kanvas scrolls the canvas for you when you drag a component close to — or past — the visible edge. Instead of having to stop, let go, scroll the canvas, grab the component again, and continue, you keep dragging and the canvas glides along with you.
@@ -107,9 +108,3 @@ If autopan is disabled on a design where you would like it to be active, you hav
 1. **Switch to a lower-fidelity render mode.** Wireframe and View-Only raise the threshold to 1,000 nodes. See the [Render Modes](/kanvas/advanced/render-modes/) page for what each mode costs and what it hides.
 2. **Reduce the live listener count.** The [Layers Panel](/kanvas/advanced/performance/) lets you disable layers of visual information (badges, tags, feasibility indicators) that contribute to the pan fan-out. Turning off a layer effectively moves the threshold upward because there are fewer listeners to amplify each pan.
 3. **Break the design into smaller designs.** If you are consistently bumping the threshold in your preferred render mode, the design might be past the scale Kanvas targets for interactive editing. Splitting it into referenced sub-designs keeps each one within the sweet spot.
-
-### Related pages
-
-- [Render Modes](/kanvas/advanced/render-modes/) — what each mode renders, what it hides, and how Adaptive Render Mode flips between them automatically.
-- [Performance Limits and Tuning](/kanvas/advanced/performance/) — overall Kanvas performance envelope and the Layers Panel.
-- [Design Render Quality](/kanvas/advanced/url-parameters/) — overriding the render mode via URL parameters (useful for snapshots and embeds).

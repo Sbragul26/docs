@@ -1,0 +1,60 @@
+{{ $relatedDocs := .Params.related_docs }}
+{{ $dynamicRelatedDocs := slice }}
+
+{{ if $relatedDocs }}
+  {{ range $relatedDocs }}
+    {{ if reflect.IsMap . }}
+      {{ $dynamicRelatedDocs = $dynamicRelatedDocs | append (dict "Title" .title "Link" .link) }}
+    {{ else }}
+      {{ $cleanPath := strings.TrimSuffix "/" . }}
+      {{ $page := $.Site.GetPage $cleanPath }}
+      {{ if $page }}
+        {{ $dynamicRelatedDocs = $dynamicRelatedDocs | append (dict "Title" $page.Title "Link" $page.RelPermalink) }}
+      {{ else }}
+        {{ $title := . }}
+        {{ if hasPrefix . "http" }}
+          {{ $urlParts := split $cleanPath "/" }}
+          {{ $title = index $urlParts (sub (len $urlParts) 1) | default . }}
+          {{ $title = strings.Replace $title "-" " " | strings.Title }}
+        {{ end }}
+        {{ $dynamicRelatedDocs = $dynamicRelatedDocs | append (dict "Title" $title "Link" .) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ else if or .Params.tags .Params.categories }}
+  {{ $currentPage := . }}
+  {{ $currentTags := .Params.tags }}
+  {{ $currentCategories := .Params.categories }}
+  {{ $matchingDocs := slice }}
+  
+  {{ range (where .Site.Pages "Section" "in" (slice "docs" "cloud" "kanvas" "contributing")) }}
+    {{ $page := . }}
+    {{ if and (ne $page.Permalink $currentPage.Permalink) (eq $page.Kind "page") }}
+      {{ $score := 0 }}
+      {{ range $currentTags }}
+        {{ if in $page.Params.tags . }}{{ $score = add $score 2 }}{{ end }}
+      {{ end }}
+      {{ range $currentCategories }}
+        {{ if in $page.Params.categories . }}{{ $score = add $score 3 }}{{ end }}
+      {{ end }}
+      {{ if gt $score 0 }}
+        {{ $matchingDocs = $matchingDocs | append (dict "page" $page "score" $score) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  
+  {{ range first 3 (sort $matchingDocs "score" "desc") }}
+    {{ $dynamicRelatedDocs = $dynamicRelatedDocs | append (dict "Title" .page.Title "Link" .page.RelPermalink) }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $dynamicRelatedDocs) 0 }}
+<div class="related-docs-section" style="margin-top: 2rem;">
+  <h3>Related Docs</h3>
+  <ul>
+    {{ range $dynamicRelatedDocs }}
+      <li><a href="{{ .Link }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

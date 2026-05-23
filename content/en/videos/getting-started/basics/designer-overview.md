@@ -8,10 +8,7 @@ categories: [Designer]
 formats: [video]
 tags: [basics]
 duration: "1:38"
+
 ---
 
 {{< youtube id=qaoYRP3oLok class="yt-embed-container" >}}
-
-### Related Docs
-
-- [Exploring Designer](/kanvas/designer/)
