@@ -23,7 +23,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[98 412 32 94 428 40]" src="../../cloud/concepts/catalog/images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
+ &lt;img id="[439 145 147 400 247 51]" src="../../cloud/concepts/catalog/images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -54,7 +54,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[399 308 287 190 33 342]" src="../../cloud/concepts/catalog/images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
+ &lt;img id="[401 175 213 356 421 298]" src="../../cloud/concepts/catalog/images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -86,7 +86,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[63 181 413 404 197 145]" src="./images/Slide51.svg" onclick="openModal(this.id)" alt="Flow for sharing design" 
+ &lt;img id="[21 424 363 228 143 155]" src="./images/Slide51.svg" onclick="openModal(this.id)" alt="Flow for sharing design" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
