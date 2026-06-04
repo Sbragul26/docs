@@ -1,4 +1,151 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.107</title><link>/cloud/reference/releases/v1.0.107/</link><pubDate>Thu, 28 May 2026 19:54:04 +0000</pubDate><guid>/cloud/reference/releases/v1.0.107/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.118</title><link>/cloud/reference/releases/v1.0.118/</link><pubDate>Thu, 04 Jun 2026 02:25:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.118/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): stop dropping off-eTLD signups on /error after the password step @leecalcote (#5444)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.19 @l5io (#5443)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jamieplu, @l5io, @leecalcote and @meshery-ci&lt;/p&gt;</description></item><item><title>v1.0.117</title><link>/cloud/reference/releases/v1.0.117/</link><pubDate>Wed, 03 Jun 2026 22:13:50 +0000</pubDate><guid>/cloud/reference/releases/v1.0.117/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(authz): let Provider Admins see and administer across all organizations @leecalcote (#5442)&lt;/li&gt;
+&lt;li&gt;Phase 3: Remove v1beta2 snakecase fallbacks shape @CodexRaunak (#5435)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodexRaunak, @jamieplu, @leecalcote and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.116</title><link>/cloud/reference/releases/v1.0.116/</link><pubDate>Wed, 03 Jun 2026 16:19:32 +0000</pubDate><guid>/cloud/reference/releases/v1.0.116/</guid><description>&lt;ul&gt;
+&lt;li&gt;Add DigitalOcean link to router.go @leecalcote (#5441)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Meshery v0.4.28 content update @l5io (#5440)&lt;/li&gt;
+&lt;li&gt;Layer5 v0.8.21 content update @l5io (#5439)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote and @meshery-ci&lt;/p&gt;</description></item><item><title>v1.0.115</title><link>/cloud/reference/releases/v1.0.115/</link><pubDate>Tue, 02 Jun 2026 22:15:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.115/</guid><description>&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DigitalOcean v0.1.19 content update @l5io (#5438)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io&lt;/p&gt;</description></item><item><title>v1.0.114</title><link>/cloud/reference/releases/v1.0.114/</link><pubDate>Tue, 02 Jun 2026 21:24:48 +0000</pubDate><guid>/cloud/reference/releases/v1.0.114/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(auth): skip reCAPTCHA on registration for fully-custom-eTLD orgs @leecalcote (#5437)&lt;/li&gt;
+&lt;li&gt;chore(governance): enforce schema-first for server/models (hooks + CI + docs) @leecalcote (#5436)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@claude, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.113</title><link>/cloud/reference/releases/v1.0.113/</link><pubDate>Tue, 02 Jun 2026 16:37:35 +0000</pubDate><guid>/cloud/reference/releases/v1.0.113/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): keep recovery/verification flows on the org&amp;rsquo;s custom domain + friendly error redirect @leecalcote (#5432)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote, @ritzorama and @theBeginner86&lt;/p&gt;</description></item><item><title>v1.0.112</title><link>/cloud/reference/releases/v1.0.112/</link><pubDate>Mon, 01 Jun 2026 22:01:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.112/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): keep LOGIN/SIGN UP toggle on password-only custom-domain pages @leecalcote (#5431)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.111</title><link>/cloud/reference/releases/v1.0.111/</link><pubDate>Mon, 01 Jun 2026 18:21:01 +0000</pubDate><guid>/cloud/reference/releases/v1.0.111/</guid><description>&lt;ul&gt;
+&lt;li&gt;[UI] Bump Sistent to v0.21.15 and rename AccessTimeIcon @Junnygram (#5397)&lt;/li&gt;
+&lt;li&gt;feat(auth): hide OAuth buttons for non-BYOC tenants on fully-custom domains @hortison (#5430)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.18 @l5io (#5396)&lt;/li&gt;
+&lt;li&gt;fix(rjsf): suppress root object title via UI schema, not schema mutation @hortison (#5429)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Junnygram, @hortison, @l5io, @leecalcote, @pontusringblom and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.110</title><link>/cloud/reference/releases/v1.0.110/</link><pubDate>Mon, 01 Jun 2026 16:56:12 +0000</pubDate><guid>/cloud/reference/releases/v1.0.110/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(org-theming): custom brand colors for organizations @hortison (#5421)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-dependencies" class="heading-link"&gt;
+ ⬆️ Dependencies
+ &lt;a href="#-dependencies" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;4 changes&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(deps): Bump @stripe/react-stripe-js from 6.4.0 to 6.5.0 in /ui @dependabot (#5425)&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): Bump eslint-plugin-prettier from 5.5.5 to 5.5.6 in /ui @dependabot (#5424)&lt;/li&gt;
+&lt;li&gt;chore(deps): Bump react-router-dom from 7.15.1 to 7.16.0 in /ui @dependabot (#5428)&lt;/li&gt;
+&lt;li&gt;chore(deps): Bump js-cookie from 3.0.7 to 3.0.8 in /ui @dependabot (#5426)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@dependabot, @dependabot[bot], @hortison, @leecalcote, @pontusringblom and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.109</title><link>/cloud/reference/releases/v1.0.109/</link><pubDate>Sat, 30 May 2026 19:34:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.109/</guid><description>&lt;ul&gt;
+&lt;li&gt;Migrate Academy to v1beta3 phase 1 and 2 @CodexRaunak (#5423)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodexRaunak&lt;/p&gt;</description></item><item><title>v1.0.108</title><link>/cloud/reference/releases/v1.0.108/</link><pubDate>Fri, 29 May 2026 21:40:37 +0000</pubDate><guid>/cloud/reference/releases/v1.0.108/</guid><description>&lt;ul&gt;
+&lt;li&gt;docs(academy): plan for v1beta3 (camelCase) consumer migration @hortison (#5379)&lt;/li&gt;
+&lt;li&gt;docs(oidc): design plan for eTLD-agnostic server-side state store @hortison (#5411)&lt;/li&gt;
+&lt;li&gt;docs(auth): document GitHub OAuth App host-root callback requirement @hortison (#5414)&lt;/li&gt;
+&lt;li&gt;Align /api/system/version with canonical schema @PragalvaXFREZ (#5325)&lt;/li&gt;
+&lt;li&gt;Phase 0a: Add academy canonical casing compatibility fallbacks @CodexRaunak (#5409)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exoscale v0.6.37 content update @l5io (#5418)&lt;/li&gt;
+&lt;li&gt;Layer5 v0.8.20 content update @l5io (#5417)&lt;/li&gt;
+&lt;li&gt;DigitalOcean v0.1.17 content update @l5io (#5416)&lt;/li&gt;
+&lt;li&gt;Meshery v0.4.27 content update @l5io (#5415)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodexRaunak, @PragalvaXFREZ, @hortison, @l5io, @leecalcote and @marblom007&lt;/p&gt;</description></item><item><title>v1.0.107</title><link>/cloud/reference/releases/v1.0.107/</link><pubDate>Thu, 28 May 2026 19:54:04 +0000</pubDate><guid>/cloud/reference/releases/v1.0.107/</guid><description>&lt;ul&gt;
 &lt;li&gt;docs(auth): consolidate identity docs; retire \W2\ workstream codenames @hortison (#5413)&lt;/li&gt;
 &lt;li&gt;perf(authz): cache custom-domain org resolution; skip resolver for probes @leecalcote (#5412)&lt;/li&gt;
 &lt;li&gt;Fix Broken Academy tests and module prerequisite completion @CodexRaunak (#5380)&lt;/li&gt;
