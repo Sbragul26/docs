@@ -19,7 +19,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[386 361 123 333 337 404]" src="images/style-edge.gif" onclick="openModal(this.id)" alt="Examples of changing edge styles in Kanvas" 
+ &lt;img id="[341 144 359 194 17 280]" src="images/style-edge.gif" onclick="openModal(this.id)" alt="Examples of changing edge styles in Kanvas" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -36,7 +36,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[432 231 336 328 254 230]" src="images/example.png" onclick="openModal(this.id)" alt="Example" 
+ &lt;img id="[395 494 145 288 79 341]" src="images/example.png" onclick="openModal(this.id)" alt="Example" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -152,7 +152,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[354 497 192 416 461 390]" src="./default.gif" onclick="openModal(this.id)" alt="Click" 
+ &lt;img id="[147 428 123 199 158 382]" src="./default.gif" onclick="openModal(this.id)" alt="Click" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -168,7 +168,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[163 341 262 8 14 62]" src="./click_and_drag.gif" onclick="openModal(this.id)" alt="Click and drag" 
+ &lt;img id="[107 373 375 363 474 223]" src="./click_and_drag.gif" onclick="openModal(this.id)" alt="Click and drag" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -184,7 +184,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[263 189 417 231 235 421]" src="./click.png" onclick="openModal(this.id)" alt="Click" 
+ &lt;img id="[354 150 1 376 463 382]" src="./click.png" onclick="openModal(this.id)" alt="Click" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -200,7 +200,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[321 458 333 226 94 465]" src="./double_click.png" onclick="openModal(this.id)" alt="Double-click component" 
+ &lt;img id="[188 19 182 29 24 413]" src="./double_click.png" onclick="openModal(this.id)" alt="Double-click component" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -216,7 +216,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[272 318 121 180 229 189]" src="./text-box-double-click.gif" onclick="openModal(this.id)" alt="Double-click textbox" 
+ &lt;img id="[206 158 28 370 437 443]" src="./text-box-double-click.gif" onclick="openModal(this.id)" alt="Double-click textbox" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -232,7 +232,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[9 273 405 36 133 354]" src="./right_click.png" onclick="openModal(this.id)" alt="Right-click" 
+ &lt;img id="[314 374 342 5 77 135]" src="./right_click.png" onclick="openModal(this.id)" alt="Right-click" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -248,7 +248,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[339 270 358 486 399 174]" src="./select.gif" onclick="openModal(this.id)" alt="Box selection" 
+ &lt;img id="[294 481 85 488 150 56]" src="./select.gif" onclick="openModal(this.id)" alt="Box selection" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -264,7 +264,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[26 382 109 163 413 339]" src="./scroll_up_down.gif" onclick="openModal(this.id)" alt="Scroll" 
+ &lt;img id="[255 251 130 184 102 245]" src="./scroll_up_down.gif" onclick="openModal(this.id)" alt="Scroll" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -280,7 +280,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[205 434 363 373 229 309]" src="./zoom_in_out.gif" onclick="openModal(this.id)" alt="Zoom" 
+ &lt;img id="[218 216 41 271 70 458]" src="./zoom_in_out.gif" onclick="openModal(this.id)" alt="Zoom" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -296,7 +296,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[110 286 55 452 352 204]" src="./scroll_left_right.gif" onclick="openModal(this.id)" alt="Scroll left/right" 
+ &lt;img id="[202 260 265 195 57 6]" src="./scroll_left_right.gif" onclick="openModal(this.id)" alt="Scroll left/right" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -314,7 +314,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[83 211 118 241 349 350]" src="./overview.png" onclick="openModal(this.id)" alt="Shapes Introduction" 
+ &lt;img id="[62 185 182 264 260 123]" src="./overview.png" onclick="openModal(this.id)" alt="Shapes Introduction" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;The whiteboarding feature introduces versatile, freestyle drawing capabilities within Kanvas. Enabling the whiteboard feature augments your ability to diagram with a suite of predefined shapes, and pen and pencil annotation, allowing you full freedom of expression of your engineering diagrams.&lt;/p&gt;
@@ -433,7 +433,7 @@ Choose the option that matches your workflow (see table below).&lt;/li&gt;
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[496 301 56 473 180 151]" src="./export-modal.gif" onclick="openModal(this.id)" alt="Export Icon" 
+ &lt;img id="[248 23 465 108 280 1]" src="./export-modal.gif" onclick="openModal(this.id)" alt="Export Icon" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Publishing Designs</title><link>/kanvas/designer/publishing-designs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/publishing-designs/</guid><description>&lt;p&gt;Publishing a design makes it visible to all Meshery Cloud users and anonymous visitors. This guide explains the publishing workflow, state management, permissions, and operational constraints.&lt;/p&gt;
 
@@ -482,7 +482,7 @@ Choose the option that matches your workflow (see table below).&lt;/li&gt;
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[338 326 460 4 85 308]" src="pin-to-dock.png" onclick="openModal(this.id)" alt="Pin To Dock action" 
+ &lt;img id="[334 398 169 471 185 282]" src="pin-to-dock.png" onclick="openModal(this.id)" alt="Pin To Dock action" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Policy Engine</title><link>/kanvas/designer/relationship-evaluation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/relationship-evaluation/</guid><description>&lt;p&gt;As you build a design, Kanvas continuously evaluates the
 &lt;a href="../../kanvas/concepts/relationships/"&gt;relationships&lt;/a&gt; between your components — to
